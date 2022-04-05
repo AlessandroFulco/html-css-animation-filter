@@ -204,4 +204,54 @@ a:hover .ex-12-bottom-white {
         right: 20%;
     }
 }
-    
+    /* esercizio 13 */
+a:hover .ex-13-top-white {
+    animation: move13top 3s infinite;
+}
+@keyframes move13top {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+    25% {
+        top: -10px;
+        left: 100%;
+    }
+    50% {
+        top: 50px;
+        left: 100%;
+    }
+    75% {
+        top: 50px;
+        left: -30%;
+    }
+    100% {
+        top: -10px;
+        left: -30%;
+    }
+}
+a:hover .ex-13-bottom-white {
+    animation: move13bottom 3s infinite;
+}
+@keyframes move13bottom {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    25% {
+        bottom: -10px;
+        right: 100%;
+    }
+    50% {
+        bottom: 50px;
+        right: 100%;
+    }
+    75% {
+        bottom: 50px;
+        right: -30%;
+    }
+    100% {
+        bottom: -10px;
+        right: -30%;
+    }
+}

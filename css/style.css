@@ -141,3 +141,17 @@
     transform: scale(1.3);
     border-radius: 20px;
 }
+
+    /* esercizio 10 */
+.ex-10-icon {
+    animation: rotate10 1s linear infinite;
+}
+@keyframes rotate10 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+    
+}

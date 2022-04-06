@@ -80,7 +80,7 @@
 .ex-2-square {
     transition: width 1s ease-in-out;
 }
-.ex-2-square:hover {
+.ex-2-square:active {
     width: 100%;
 }
     /* esercizio 3 */
